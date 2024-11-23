@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+   /*  justify-content: center;*/
+    align-items: center;
+    min-height: 100vh;
+   /* background: url('background.jpg') no-repeat;*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/*------ Newly added-------------------*/
+.dashbooard{
+
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    padding: 10px;
+   
+}
+
+
+/* Boxes CSS*/
+.box-container1 {
+    display: flex;
+    justify-content: space-around; /* Distribute boxes evenly */
+    margin-top: 4px; /* Add some space from top */
+    margin-left: 25px;
+    padding-top: 70px;
+    
+}
+
+
+.box:hover{
+    background: #ffd900;
+}
+
+
+.box-container2{
+  display: flex;
+  justify-content: space-around; /* Distribute boxes evenly */
+  margin-top: 400px; /* Add some space from top */
+  margin-left: -375px;
+  padding-top: 90px;
+
+}
+
+.box-container2 .btn2{
+  width: 80%;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid black;
+  outline:#000000;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #162938;
+  font-weight: 500;
+  margin-left: -640px;   
+  padding-left: 50px;
+  padding-right: 90px;
+}
+
+
+
+
+
+
+
+
+.box {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px ;
+    
+    text-decoration: none;
+    font-weight:700;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    width: 150px; /* Set width for each box */
+    height: 150px;
+    margin: 40px;  /* Add some margin between boxes */
+    box-shadow: 8px 9px 24px rgb(197, 193, 193);
+}
+
+.box h3 {
+    margin: 0; /* Remove default margins */
+}
+
+/* Profile PIC*/
+
+.user-profile {
+    position: absolute;
+    top: 120px; /* Adjust the top position as needed */
+    right: 300px; /* Adjust the right position as needed */
+    padding-right: 30px;
+    margin: 0; /* Remove any margins */
+  }
+  
+  .profile-pic {
+    width: 70px; /* Set the desired width for the profile picture */
+    height: 70px; /* Set the desired height for the profile picture */
+    border-radius: 50%; /* Make the picture a circle */
+  }
+.username{
+    position: absolute;
+    top: 65px; /* Adjust the top position as needed */
+    right: -255px; /* Adjust the right position as needed */
+    padding-right: 30px;
+    margin: 0; /* Remove any margins */
+    text-align:left; /* Center the text */
+    padding: 3px;
+    margin-top: -56px;
+    margin-right: 100px;
+}
+
+
+.box-text {
+    display: block;
+    padding-bottom: 0px;
+    transform: translateX(-10%);
+    display: flex;
+    padding-left: 32px;
+    padding: -1px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+/*------ Newly added Bottom-------------------*/
+
+header {
+    position: fixed;
+    background-color: #ffd900;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+
+
+
+.logo {
+    font-size: 2em;
+    color: #000000;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation .btnSignup-popup {
+    width: 130px;
+    height: 50px;
+    background:black;
+    border: 2px solid #000000;
+    outline:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+
+}
+
+.navigation .btnSignup-popup:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+.navigation .btnLogout-popup {
+    width: 130px;
+    height: 50px;
+    background:black;
+    border: none;
+    outline:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+
+}
+
+.navigation .btnLogout-popup:hover{
+    background: #FF0000;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background:transparent;
+    border: 2px solid #000000;
+    outline:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+
+/*----------footer-------------------------------------*/
+/* Style the footer container */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: auto;
+    width: 100%;
+    position: absolute;
+    bottom: -200px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .footer-column img {
+    max-width: 100px;
+  }
+  
+  .footer-column p {
+    font-size: 12px;
+    color: #cfcfcf;
+  }
+  
+  .footer-column h3 {
+    font-size: 17px;
+    color: #ffffff;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #969696;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+
+  .Footerlogo {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+
+/* Style the footer newsletter form */
+.footer-newsletter form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-newsletter input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-newsletter button {
+    padding: 10px 20px;
+    background-color: #fa0606;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #555;
+}
+
+
+/* Style for the copyright notice */
+.footer-container {
+  position: relative;
+}
+
+.copyright {
+  font-size: 14px;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.copyright p {
+  margin: 0;
+}

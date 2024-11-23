@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: rgba(0, 0, 0, .2);
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    /* background-color: rgba(248, 228, 50, 0.945);*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+
+}
+
+.header-scrolled {
+    background-color: rgba(248, 228, 50, 0.945); /* Change the color to your desired header color */
+}
+
+
+.logo {
+    font-size: 2em;
+    color: #000000;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation .btnSignup-popup {
+    width: 130px;
+    height: 50px;
+    background:black;
+    border: 2px solid #000000;
+    outline:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+
+}
+
+.navigation .btnSignup-popup:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+.navigation .btnLogout-popup {
+    width: 130px;
+    height: 50px;
+    background:black;
+    border: none;
+    outline:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+
+}
+
+.navigation .btnLogout-popup:hover{
+    background: #FF0000;
+    color: #ffffff;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background:transparent;
+    border: 2px solid #000000;
+    outline:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position:absolute;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-align: center;
+    margin-bottom: 380px;
+
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#girl {
+    position: relative; /* Ensure the image is positioned relative to its container */
+    z-index: 2; /* Higher z-index to position the image on top */
+}
+
+#car {
+    z-index: 6; /* Higher z-index to position the image on top */
+}
+
+#hill2{
+    z-index: 2; /* Higher z-index to position the image on top */
+}
+
+#desk{
+    z-index: 5; /* Higher z-index to position the image on top */
+}
+
+
+
+
+
+.sec {
+    position: relative;
+    background: #1a90ff;
+    padding: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    
+}
+
+.sec p {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.features-heading {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+    /* Style for the container */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+        grid-gap: 10px; /* Gap between items */
+    }
+
+    /* Style for the image */
+    .image {
+        grid-column: 1 / 2; /* Span one column */
+        padding-left: -400px;
+        width: 300px;
+        height: 700px;
+    
+        
+        
+        
+        
+    }
+
+    /* Style for the icon */
+    .icon {
+        grid-column: 2 / 3; /* Span one column */
+        display:flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 100px;
+    }
+
+    /* Style for the text */
+    .text {
+        margin-top: 10px; /* Margin above the text */
+        text-align: left;
+        
+    }
+
+    .icon2{
+
+        padding-left: 10px;
+    }
+
+
+
+    .sec2{
+        position: relative;
+        background: #ff78f8;
+        padding: 10px;
+        margin-top: -200px;
+        margin-bottom: 20px;
+
+    }
+
+    .sec2 p {
+        font-size: 26px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .sec2 h2 {
+        font-size: 3em;
+        color: #ffffff;
+        
+    }
+
+    .benifits-heading{
+        text-align: center;
+        padding: 40px;
+    }
+
+    .get-started-btn{
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #ffffff;
+        border: solid 4px #ffffff;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: bold;
+        
+    }
+
+    .get-started-btn:hover {
+        background-color: #ffffff;
+        color: #ff78f8;
+        border: solid 4px #ffffff;
+    }
+
+    .btnarea {
+        text-align: center;
+        padding: 40px;
+    }
+
+
+
+ /* Section 3 start */
+
+    .sec3 {
+        position: relative;
+        background: #b0fdb0;
+        padding: 10px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .container-sec3 {
+        display: flex;
+    }
+
+
+/* Testimonials styles */
+
+
+
+
+/*----------footer-------------------------------------*/
+/* Style the footer container */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: auto;
+    width: 100%;
+    position: absolute;
+    bottom: -1800px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .footer-column img {
+    height: 40px;
+    width: 100;
+  }
+  
+  .footer-column p {
+    font-size: 12px;
+    color: #cfcfcf;
+  }
+  
+  .footer-column h3 {
+    font-size: 17px;
+    color: #ffffff;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #969696;
+
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+
+  .Footerlogo {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+
+/* Style the footer newsletter form */
+.footer-newsletter form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-newsletter input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-newsletter button {
+    padding: 10px 20px;
+    background-color: #fa0606;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #555;
+}
+
+
+/* Style for the copyright notice */
+.footer-container {
+  position: relative;
+}
+
+.copyright {
+  font-size: 14px;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+/* Home image cover and text */
+.cover {
+    position: relative;
+    width: 100%;
+    margin-bottom: auto;
+    float: left;
+    z-index: 1;
+    
+    
+    /* Add any specific styles for the cover */
+}
+
+.cover img {
+    width: 45%;
+    display: inline-block;
+    height: 70%;
+    padding-top: 50px;
+    top: 10;
+    z-index: 1;
+}
+
+.cover-text {
+    position: sticky;
+    top: 60%;
+    left: 40%;
+    transform: translate(0%, -50%);
+    text-align:justify;
+    color: rgb(255, 255, 255);
+
+    
+    
+    
+    /* Add any specific styles for the text */
+}
+
+.cover-text h1 {
+    
+    font-size: 3em;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5%;
+    left: 60px; /* Adjust left offset */
+    transform: translate(0%, 40%);
+    text-align: left; /* Align text to the left */
+    z-index: 3;
+    padding-top: 30%;
+
+}
+
+
+.cover-text p {
+    font-size: 1.5em;
+    margin: 0;
+    color: #c5c5c5;
+    box-sizing: border-box;
+    padding: 5%;
+    left: 60px; /* Adjust left offset */
+    transform: translate(0%, 40%);
+    text-align: left; /* Align text to the left */
+    z-index: 2;
+    padding-top: 10%;
+    
+}
+
+.cover-bg {
+    position: absolute;
+    top: 0;
+    left: 42%;
+    width: 58%;
+    height: 85%;
+    background-color: rgba(46, 12, 241, 0.808);
+    z-index: 0;
+
+}
+
+
+
+#header {
+    position: fixed;
+    /* background-color: rgba(248, 228, 50, 0.945);*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+
+}
+
+#header.header-scrolled {
+    background-color: rgba(248, 228, 50, 0.945); /* Change the color to your desired header color */
+}
+
+

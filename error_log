@@ -1,0 +1,552 @@
+[18-Mar-2024 07:09:19 America/New_York] PHP Warning:  include(head5er.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/usersignup.php on line 41
+[18-Mar-2024 07:09:19 America/New_York] PHP Warning:  include(head5er.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/usersignup.php on line 41
+[18-Mar-2024 07:09:19 America/New_York] PHP Warning:  include(): Failed opening 'head5er.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/usersignup.php on line 41
+[18-Mar-2024 07:17:48 America/New_York] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/index.php on line 1
+[18-Mar-2024 07:17:48 America/New_York] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/index.php on line 1
+[18-Mar-2024 07:17:48 America/New_York] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/index.php on line 1
+[18-Mar-2024 07:20:18 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/index.php on line 28
+[18-Mar-2024 07:20:18 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/index.php on line 28
+[18-Mar-2024 07:20:18 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/index.php on line 28
+[18-Mar-2024 07:31:29 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/userdashboard.php on line 28
+[18-Mar-2024 07:31:29 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/userdashboard.php on line 28
+[18-Mar-2024 07:31:29 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/userdashboard.php on line 28
+[12-Apr-2024 04:04:41 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'queenzbf_demo_sample_db.addbill' doesn't exist in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:04:59 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'queenzbf_demo_sample_db.addbill' doesn't exist in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:07:01 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'queenzbf_demo_sample_db.addbill' doesn't exist in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:22:21 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[12-Apr-2024 04:22:51 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:24:28 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:25:39 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 27
+[12-Apr-2024 04:26:44 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:26:54 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:28:04 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:31:20 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 27
+[12-Apr-2024 04:31:54 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 04:32:11 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 04:32:55 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:32:58 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:33:01 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:33:04 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:33:15 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:33:31 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:35:43 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:36:48 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[12-Apr-2024 04:37:55 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[12-Apr-2024 04:38:29 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 04:38:33 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 04:38:52 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 27
+[12-Apr-2024 04:39:38 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 27
+[12-Apr-2024 04:40:41 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:43:37 America/New_York] PHP Warning:  Undefined array key "bill_title" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 13
+[12-Apr-2024 04:43:37 America/New_York] PHP Warning:  Undefined array key "bill_des" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 14
+[12-Apr-2024 04:43:37 America/New_York] PHP Warning:  Undefined array key "rem_time" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 15
+[12-Apr-2024 04:43:37 America/New_York] PHP Warning:  Undefined array key "rem_date" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 16
+[12-Apr-2024 04:43:51 America/New_York] PHP Warning:  Undefined array key "bill_title" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 13
+[12-Apr-2024 04:43:51 America/New_York] PHP Warning:  Undefined array key "bill_des" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 14
+[12-Apr-2024 04:43:51 America/New_York] PHP Warning:  Undefined array key "rem_time" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 15
+[12-Apr-2024 04:43:51 America/New_York] PHP Warning:  Undefined array key "rem_date" in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 16
+[12-Apr-2024 04:44:41 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:46:30 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 04:49:25 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6618' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:30
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(30): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 30
+[12-Apr-2024 04:52:28 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:53:24 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 04:56:20 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:56:24 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:56:27 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:56:42 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 04:59:03 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 05:25:49 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 05:26:03 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 05:27:29 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 07:07:26 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 07:07:57 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 07:08:09 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[12-Apr-2024 09:10:19 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 10:55:12 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addelectricity.php on line 27
+[12-Apr-2024 10:55:41 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 27
+[12-Apr-2024 10:56:10 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[12-Apr-2024 10:56:54 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 10:58:19 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[12-Apr-2024 10:59:33 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:31
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(31): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 31
+[12-Apr-2024 10:59:48 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:31
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(31): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 31
+[12-Apr-2024 11:00:07 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:31
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(31): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 31
+[12-Apr-2024 11:03:58 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:03:58 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:03:58 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:15 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:15 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:15 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:29 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:29 America/New_York] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:29 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 96
+[12-Apr-2024 11:04:39 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php:26
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php(26): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphonev2.php on line 26
+[12-Apr-2024 11:09:05 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[15-Apr-2024 00:57:55 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[15-Apr-2024 01:10:55 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:29
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(29): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 29
+[15-Apr-2024 01:43:08 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:29
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(29): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 29
+[15-Apr-2024 01:43:26 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:29
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinternet.php(29): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 29
+[15-Apr-2024 03:33:01 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 27
+[15-Apr-2024 03:33:13 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[15-Apr-2024 03:34:11 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[15-Apr-2024 03:34:37 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:29
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(29): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 29
+[15-Apr-2024 03:34:50 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[15-Apr-2024 03:44:32 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 27
+[15-Apr-2024 03:44:45 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addother.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addother.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addother.php on line 27
+[15-Apr-2024 03:46:27 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 73
+[15-Apr-2024 03:46:27 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 73
+[15-Apr-2024 03:46:35 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:46:35 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:46:39 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 73
+[15-Apr-2024 03:46:39 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 73
+[15-Apr-2024 03:46:47 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:46:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:47:02 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 73
+[15-Apr-2024 03:47:02 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 73
+[15-Apr-2024 03:47:13 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:47:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:47:13 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:29
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(29): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 29
+[15-Apr-2024 03:47:17 America/New_York] PHP Warning:  Undefined variable $user_data in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:47:17 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 23
+[15-Apr-2024 03:48:33 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:53:45 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:53:51 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:54:14 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:56:19 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:56:42 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:57:27 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 03:59:07 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addwater.php:27
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addwater.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addwater.php on line 27
+[15-Apr-2024 04:00:28 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:05:17 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:05:41 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:06:12 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:07:23 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:08:17 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:13:16 America/New_York] PHP Fatal error:  Uncaught TypeError: rand(): Argument #1 ($min) must be of type int, float given in /home/queenzbf/remialert.quizfrenzy.com/functions.php:59
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/functions.php(59): rand()
+#1 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): generateUniqueRandomNumbers()
+#2 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/functions.php on line 59
+[15-Apr-2024 04:17:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_number_unique() in /home/queenzbf/remialert.quizfrenzy.com/functions.php:67
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): random_num22()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/functions.php on line 67
+[15-Apr-2024 04:17:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_number_unique() in /home/queenzbf/remialert.quizfrenzy.com/functions.php:67
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(27): random_num22()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/functions.php on line 67
+[15-Apr-2024 04:24:57 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:27:01 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:27:43 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:30:44 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:32:07 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:39:57 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:43:21 America/New_York] PHP Fatal error:  Maximum execution time of 1500 seconds exceeded in /home/queenzbf/remialert.quizfrenzy.com/functions.php on line 63
+[15-Apr-2024 04:43:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function random_num22() in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 27
+[15-Apr-2024 04:46:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function random_billid() in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 22
+[15-Apr-2024 04:46:49 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:47:01 America/New_York] PHP Fatal error:  Maximum execution time of 1500 seconds exceeded in /home/queenzbf/remialert.quizfrenzy.com/functions.php on line 63
+[15-Apr-2024 04:47:01 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:47:13 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:48:02 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:48:22 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:48:48 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:48:59 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:52:37 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:53:43 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in /home/queenzbf/remialert.quizfrenzy.com/addphone.php:32
+Stack trace:
+#0 /home/queenzbf/remialert.quizfrenzy.com/addphone.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addphone.php on line 32
+[15-Apr-2024 04:58:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function random_billid() in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinsurance.php on line 22
+[15-Apr-2024 04:58:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function random_billid() in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/queenzbf/remialert.quizfrenzy.com/addinternet.php on line 24
